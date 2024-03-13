@@ -1,0 +1,23 @@
+/* hide right side bar of instagram */
+@-moz-document domain(instagram.com) {
+  div.x1dr59a3:nth-child(2) {
+    display: none !important;
+  }
+
+  main.xvbhtw8 > div:nth-child(1) > div:nth-child(1) {
+    max-width: 900px !important;
+  }
+}
+
+/* hide right side bar of reddit */
+@-moz-document domain(reddit.com) {
+  #right-sidebar-container {
+    display: none !important;
+  }
+  // fill empty space
+  @media (min-width: 1200px) {
+    .main-container {
+      grid-template-columns: repeat(3, 1fr) repeat(3, minmax(90px, 1fr)) !important;
+    }
+  }
+}
