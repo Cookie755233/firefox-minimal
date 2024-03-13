@@ -15,6 +15,11 @@
     display: none !important;
   }
   // fill empty space
+  @media (min-width: 1416px) {
+    .main-container {
+      grid-template-columns: repeat(3, 1fr) repeat(3, minmax(90px, 1fr)) !important;
+    }
+  }
   @media (min-width: 1200px) {
     .main-container {
       grid-template-columns: repeat(3, 1fr) repeat(3, minmax(90px, 1fr)) !important;
