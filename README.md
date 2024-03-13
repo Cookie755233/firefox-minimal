@@ -10,7 +10,7 @@ I'm no expert in CSS and as such, I may not be able to assist in resolving bugs 
 - **Clean look with highlighted focus tab** ![init look](readme_files/image.png)
 - **Popout Urlbar** ![urlbar](readme_files/image-3.png)
 - **Customized Reddit page (might experience some minor bugs in some resolutions)** ![reddit](readme_files/image-1.png)
-- **Customized Instagram page ![insta](readme_files/image-2.png) 
+- **Customized Instagram page** ![insta](readme_files/image-2.png) 
 
 
 # Known Bugs
