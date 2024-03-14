@@ -14,7 +14,8 @@
   #right-sidebar-container {
     display: none !important;
   }
-  // fill empty space
+  // fill empty space on the main page
+  // does not work in 768/900 resolution. I never read reddit like that but you can change as your own will
   @media (min-width: 1416px) {
     .main-container {
       grid-template-columns: repeat(3, 1fr) repeat(3, minmax(90px, 1fr)) !important;
@@ -25,4 +26,18 @@
       grid-template-columns: repeat(3, 1fr) repeat(3, minmax(90px, 1fr)) !important;
     }
   }
+  
+  // fill empty space on the comment page
+  // does not work in 768/900 resolution. I never read reddit like that but you can change as your own will
+  @media (min-width: 1416px) {
+    #main-content {
+      grid-column-end: -1 !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    #main-content {
+      grid-column-end: -1 !important;
+    }
+  }
+
 }
